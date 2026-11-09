@@ -1,0 +1,25 @@
+{
+	"name": "EVNT_TRIGGER_CSVTOPARQUET",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "eventtriggercsvtoparquet",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "BlobEventsTrigger",
+		"typeProperties": {
+			"blobPathBeginsWith": "/csvinputeventtrgigger/blobs/",
+			"blobPathEndsWith": ".csv",
+			"ignoreEmptyBlobs": true,
+			"scope": "/subscriptions/051528f5-6b87-4769-b0a7-31a973011452/resourceGroups/hb_dev_environ_project/providers/Microsoft.Storage/storageAccounts/eventtriggerinputcsv",
+			"events": [
+				"Microsoft.Storage.BlobCreated"
+			]
+		}
+	}
+}

@@ -1,0 +1,24 @@
+{
+	"name": "TRIG_SCH_BIGDATA",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "pipeline3",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Day",
+				"interval": 1,
+				"startTime": "2026-11-08T18:11:00",
+				"timeZone": "India Standard Time"
+			}
+		}
+	}
+}

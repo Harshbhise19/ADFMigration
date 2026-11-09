@@ -1,0 +1,6 @@
+{
+	"name": "ONPREM-SQLSERVER-IR",
+	"properties": {
+		"type": "SelfHosted"
+	}
+}

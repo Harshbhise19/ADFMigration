@@ -1,0 +1,198 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adfdevenvironproject"
+		},
+		"DS_ONPREMSQLSERVER_TABLES_password": {
+			"value": ""
+		},
+		"DS_PARQUET_OUTPUT_accountKey": {
+			"value": ""
+		},
+		"DS_SINK_ADLS_accountKey": {
+			"value": ""
+		},
+		"DS_SOURCE_CSV_accountKey": {
+			"value": ""
+		},
+		"DS_SQL_TO_ADLS_accountKey": {
+			"value": ""
+		},
+		"Getmetadata_activity_accountKey": {
+			"value": ""
+		},
+		"LS_CSV_BIGDATA_accountKey": {
+			"value": ""
+		},
+		"LS_CSV_SOURCE_accountKey": {
+			"value": ""
+		},
+		"LS_DelimitedText1_csv_accountKey": {
+			"value": ""
+		},
+		"LS_EVENTTRIGGER_CSV_accountKey": {
+			"value": ""
+		},
+		"LS_MULTICSV_accountKey": {
+			"value": ""
+		},
+		"LS_MULTICSVFINAL_accountKey": {
+			"value": ""
+		},
+		"LS_MULTICSVS_accountKey": {
+			"value": ""
+		},
+		"LS_MULTIFILES_accountKey": {
+			"value": ""
+		},
+		"LS_ONPREM_SOURCE_TABLE_password": {
+			"value": ""
+		},
+		"LS_ONPREM_SQLSERVER_password": {
+			"value": ""
+		},
+		"LS_PARQUET_BIGDATA_accountKey": {
+			"value": ""
+		},
+		"LS_PARQUET_EVENTTRIGGER_accountKey": {
+			"value": ""
+		},
+		"LS_PARQUET_OUTPUT_accountKey": {
+			"value": ""
+		},
+		"LS_SINK_CSV_accountKey": {
+			"value": ""
+		},
+		"LS_SINK_PARQUET_accountKey": {
+			"value": ""
+		},
+		"LS_SINK_SQLTABLE_accountKey": {
+			"value": ""
+		},
+		"LS_SOURCE_ADLS_accountKey": {
+			"value": ""
+		},
+		"LS_SOURCE_CSV_accountKey": {
+			"value": ""
+		},
+		"LS_SQLSRVER_ADLS_password": {
+			"value": ""
+		},
+		"LS_SQL_TO_PARQUET_accountKey": {
+			"value": ""
+		},
+		"DS_ONPREMSQLSERVER_TABLES_properties_typeProperties_server": {
+			"value": "MSI\\SQLEXPRESS"
+		},
+		"DS_ONPREMSQLSERVER_TABLES_properties_typeProperties_database": {
+			"value": "AdventureWorks2025"
+		},
+		"DS_ONPREMSQLSERVER_TABLES_properties_typeProperties_userName": {
+			"value": "ADF_SQL_LOGIN"
+		},
+		"DS_PARQUET_OUTPUT_properties_typeProperties_url": {
+			"value": "https://adlsdevsinkstorage10.dfs.core.windows.net/"
+		},
+		"DS_SINK_ADLS_properties_typeProperties_url": {
+			"value": "https://adlsbulkupload1.dfs.core.windows.net/"
+		},
+		"DS_SOURCE_CSV_properties_typeProperties_url": {
+			"value": "https://adlsdeccsvsource.dfs.core.windows.net/"
+		},
+		"DS_SQL_TO_ADLS_properties_typeProperties_url": {
+			"value": "https://adlsdevsinkstorage10.dfs.core.windows.net/"
+		},
+		"Getmetadata_activity_properties_typeProperties_url": {
+			"value": "https://adlssourcestorage01.dfs.core.windows.net/"
+		},
+		"LS_CSV_BIGDATA_properties_typeProperties_url": {
+			"value": "https://adlssourcestorage01.dfs.core.windows.net/"
+		},
+		"LS_CSV_SOURCE_properties_typeProperties_url": {
+			"value": "https://adlssourcestorage01.dfs.core.windows.net/"
+		},
+		"LS_DelimitedText1_csv_properties_typeProperties_url": {
+			"value": "https://adlssourcestorage01.dfs.core.windows.net/"
+		},
+		"LS_EVENTTRIGGER_CSV_properties_typeProperties_url": {
+			"value": "https://eventtriggerinputcsv.dfs.core.windows.net/"
+		},
+		"LS_MULTICSV_properties_typeProperties_url": {
+			"value": "https://adlssourcestorage01.dfs.core.windows.net/"
+		},
+		"LS_MULTICSVFINAL_properties_typeProperties_url": {
+			"value": "https://adlsdevsinkstorage10.dfs.core.windows.net/"
+		},
+		"LS_MULTICSVS_properties_typeProperties_url": {
+			"value": "https://adlssourcestorage01.dfs.core.windows.net/"
+		},
+		"LS_MULTIFILES_properties_typeProperties_url": {
+			"value": "https://adlssourcestorage01.dfs.core.windows.net/"
+		},
+		"LS_ONPREM_SOURCE_TABLE_properties_typeProperties_server": {
+			"value": "MSI\\SQLEXPRESS"
+		},
+		"LS_ONPREM_SOURCE_TABLE_properties_typeProperties_database": {
+			"value": "AdventureWorks2025"
+		},
+		"LS_ONPREM_SOURCE_TABLE_properties_typeProperties_userName": {
+			"value": "ADF_SQL_LOGIN"
+		},
+		"LS_ONPREM_SQLSERVER_properties_typeProperties_server": {
+			"value": "MSI\\SQLEXPRESS"
+		},
+		"LS_ONPREM_SQLSERVER_properties_typeProperties_database": {
+			"value": "AdventureWorks2025"
+		},
+		"LS_ONPREM_SQLSERVER_properties_typeProperties_userName": {
+			"value": "ADF_SQL_LOGIN"
+		},
+		"LS_PARQUET_BIGDATA_properties_typeProperties_url": {
+			"value": "https://adlsdevsinkstorage10.dfs.core.windows.net/"
+		},
+		"LS_PARQUET_EVENTTRIGGER_properties_typeProperties_url": {
+			"value": "https://eventtriggeroutputparque.dfs.core.windows.net/"
+		},
+		"LS_PARQUET_OUTPUT_properties_typeProperties_url": {
+			"value": "https://adlsdevsinkstorage10.dfs.core.windows.net/"
+		},
+		"LS_SINK_CSV_properties_typeProperties_url": {
+			"value": "https://adlsdevsinkstorage10.dfs.core.windows.net/"
+		},
+		"LS_SINK_PARQUET_properties_typeProperties_url": {
+			"value": "https://adlsdevsinkstorage10.dfs.core.windows.net/"
+		},
+		"LS_SINK_SQLTABLE_properties_typeProperties_url": {
+			"value": "https://adlsdevsinkstorage10.dfs.core.windows.net/"
+		},
+		"LS_SOURCE_ADLS_properties_typeProperties_url": {
+			"value": "https://adlsdeccsvsource.dfs.core.windows.net/"
+		},
+		"LS_SOURCE_CSV_properties_typeProperties_url": {
+			"value": "https://adlssourcestorage01.dfs.core.windows.net/"
+		},
+		"LS_SQLSRVER_ADLS_properties_typeProperties_server": {
+			"value": " MSI\\SQLEXPRESS"
+		},
+		"LS_SQLSRVER_ADLS_properties_typeProperties_database": {
+			"value": "AdventureWorks2025"
+		},
+		"LS_SQLSRVER_ADLS_properties_typeProperties_userName": {
+			"value": "ADF_SQL_LOGIN"
+		},
+		"LS_SQL_TO_PARQUET_properties_typeProperties_url": {
+			"value": "https://adlsdevsinkstorage10.dfs.core.windows.net/"
+		},
+		"EVNT_TRIGGER_CSVTOPARQUET_properties_typeProperties_scope": {
+			"value": "/subscriptions/051528f5-6b87-4769-b0a7-31a973011452/resourceGroups/hb_dev_environ_project/providers/Microsoft.Storage/storageAccounts/eventtriggerinputcsv"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
